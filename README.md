@@ -7,7 +7,7 @@
 
     ```bash
     git clone https://github.com/RepoRandi/flutter_daily_notes
-    cd daily_notes_app
+    cd flutter_daily_notes
     ```
 
 3. Install dependensi:
