@@ -1,16 +1,30 @@
-# daily_notes
+# Daily Notes App
 
-A new Flutter project.
+## Cara Menjalankan Aplikasi
 
-## Getting Started
+1. Pastikan Flutter telah terinstal di mesin Anda.
+2. Clone repository ini:
 
-This project is a starting point for a Flutter application.
+    ```bash
+    git clone https://github.com/RepoRandi/flutter_daily_notes
+    cd daily_notes_app
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+3. Install dependensi:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    ```bash
+    flutter pub get
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Jalankan aplikasi:
+
+    ```bash
+    flutter run
+    ```
+
+## Struktur Proyek
+
+- `data`: Menyimpan data layer, termasuk model, datasource, dan implementasi repository.
+- `domain`: Menyimpan domain layer, termasuk entities, usecases, dan repository interface.
+- `presentation`: Menyimpan presentation layer, termasuk bloc, pages, dan widgets.
+- `main.dart`: Entry point aplikasi.
